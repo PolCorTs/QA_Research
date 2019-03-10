@@ -33,12 +33,7 @@ When the requirements have been established, it is time to start planning testin
 
 ### Step three: testing
 
-The main goal of this stage is to check whether the solution is developed properly from the technical perspective and meets the initial product requirements. There are different testing types to execute depending on the stage of the development process:
-- **Smoke testing:** it comes first. In it testers lightly check that the software functions as planned. When this stage is passed, deeper investigation begins. 
-- **Integration testing:** used when adding something into the main loop. It certifies the functionality of the new added feature inside the overall game.
-- **Performance testing:** used to check the system load and stress while executing the task. This fase is where irregularities in performance are detected.
-- **Cross-platform testing:** checks the perfect functioning in every platform the game is going to be run.
-- **Regression testing:** used to search for bugs in previously tested code. It is needed when adding new features or making any updates to an existing system. 
+The main goal of this stage is to check whether the solution is developed properly from the technical perspective and meets the initial product requirements. There are different testing types to execute depending on the stage of the development process(see the [Testing](#testing) part for more information).
 
 ### Step four: report and measure
 
@@ -83,4 +78,81 @@ QA can work in parallel with development, testing as soon as new source code is 
 </p>
 
 # Testing
+
+**Testing & the Game Life Cycle**
+It is very important to differenciate the different phases of the game to detect what actions must do the QA team. Those important phases of the game development for QA are:
+
+- Concept/Design
+- Production/prototype: it is essential that the prototype contains the shining gameplay mechanic/story hook that can make a game financially successful.
+- Alpha: the alpha phase comprises a game’s first major milestone.
+- Beta: the beta phase is perhaps the most important milestone, it is roughly the time when all assets are in place and the game is virtually finished. 
+- Gold: when a game hits the gold phase, it’s ready for market. 
+
+There are many different types of testing to do depending on what you are looking for:
+
+- Smoke testing: it comes first. In it testers lightly check that the software functions as planned. When this stage is passed, deeper investigation begins. 
+- Integration testing: used when adding something into the main loop. It certifies the functionality of the new added feature inside the overall game.
+- Performance testing: used to check the system load and stress while executing the task. This fase is where irregularities in performance are detected.
+- Cross-platform testing: checks the perfect functioning in every platform the game is going to be run.
+- Regression testing: used to search for bugs in previously tested code. It is needed when adding new features or making any updates to an existing system. 
+- Balance testing: it makes sure that gameplay is fair to both the human and AI player alike. This is so important that developers sometimes spend months balancing the gameplay!
+- Playtesting:  to simply “work as intended” is not enough; game designers must tap into what is known as “the fun factor”.
+
 ## Bugs
+
+In games, every element that does not enhance the game but detracts from it is a bug. Sometimes a bug is almost impossible to see—and sometimes it’s right in your face, taking up the entire screeen. . When you’re a game tester, it’s your job to locate all the bugs you can, replicate them(make them occur again) and write a report for the developer team. You also have secondary goals as a tester such as verifying that the bugs have been fixed or make sure the game is fun together with the designers.
+
+There are a lot of bug classifications, one of them is their severity affecting the game:
+
+- Low priority bugs: they often make no difference to the development team whether they are fixed or not. Examples of low bugs are
+minor graphical glitches, a short sound distortion here and there, some small error in the user interface.
+- Medium priority bugs:  they occur more often than low bugs—and they can almost always be counted on to happen. A low priority bug that happen more frequently may be classified as medium priority. Another example is a bug that
+would annoy a player, but not affect gameplay. 
+- High priority bugs: they must be fixed.High bugs seriously affect gameplay, they make everything stop in its tracks. A necessary door that needs to be opened to continue with the story not opening is a major bug. A 40 frame rate fall would also be one.
+- Critical bugs: It demands immediate attention from the developers. Nobody goes home until the bug is fixed. Critical bugs cause crashes, freezes, and data corruption.
+
+Another type of classification is depending on which area they affect:
+
+- Visual: they affect a game’s graphics. Inside theese there are different types:
+    
+     - Clipping: it is when a polygon overlays or penetrates another polygon. 
+     - Z-Fighting: Z coordinate corresponds to depth. If there’s a problem, textures in different depths might overlap and "fight". 
+     - Screen Tearing: screen tearing occurs when the graphics processing unit can’t draw a frame fast enough.
+     - Missing Textures: when you encounter missing textures, all you see is flat white or placeholders.
+     - Visible Artifact: this is usually one of many little bits and pieces scattered on the screen that are not connected to anyone or anything.
+
+- Audio: they affect a game’s audio. Inside theese there are different types:
+     
+     - Audio Drop: you might miss important dialogue, a telling gunshot sound effect, or a line in a song. 
+     - Skipping: it usually follows a frame rate “hiccup”. This is a good indication it might be performance-related, not asset-related.
+     - Missing Sound Effect: if a sound effect is missing, you will hear silence and that’s it. A missing sound effect is ultimately the responsibility of the programming and/or the audio team.
+     - Volume Level: if you can’t change volume in the Options Screen, a sound effect that’s too faint or music that’s overbearing can be classified as a volume level bug.
+     
+- Level Design: when a level is badly constructed, you might end up with a hole in the ground or even an invisible wall. 
+
+- Artificial Intelligence: when characters do something completely illogical such as staring at a wall for five minutes, you can bet there’s something wrong with the AI code.
+
+- Physics: physics bugs include breakables and dynamic behavior.
+
+- Stability: it refers to the predictability of the code. Examples of stability bugs include freezes, crashes, and loading bugs.
+
+- Performance: it refers to the speed with which the hardware processes the code. Those include frame rate, load time, minimum requirements machine, and installation time bugs.
+
+- Networking: they are bugs specifically related to server-client connectivity and bandwidth issues. 
+
+### Bug reports
+
+Bug reports are text documents that describe to developers how a bug can be exactly reproduced. The more detailed a bug report is, the easier it is for the developer to fix it. The elements that a bug report must contain are:
+
+- Title: bug titles need to be absolutely clear and to the point, when writting them try to follow the 6W rule (who, what, when,
+where, and why).
+
+- Description: The description provides more context and detail on the bug.
+
+-Steps: they work as instructions explaining to the developer exactly what to do in order to replicate the bug.
+
+- Version:  The version associated with your report is one such essential component.
+
+- Repeatability: it refers to how often a bug occurs. 
+
+- Verification: once your bug report is done, it goes back to the developer for a fix. When it is "fixed" you must review it again to verify it is correct.
