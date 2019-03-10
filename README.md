@@ -17,7 +17,7 @@ I am <https://www.linkedin.com/in/pol-cortés-escañuela-800075180/>(Pol Cortés
 Quality Assurance (QA) is a way to ensure everything is going the right way. Many people confuse the concepts of QA and testing. However, QA is used to describe the broad surface testing done inside a publisher, while testing covers the entire spectrum of techniques used to find, investigate, and solve problems.
 
 <p align="center">
-  <img src="https://github.com/PolCorTs/QA_Research/blob/master/Docs/qa-process.png?raw=true" alt="Github branches" width="450" height="578">
+  <img src="https://github.com/PolCorTs/QA_Research/blob/master/Docs/qa-process.png?raw=true" alt="Github branches">
 </p>
 
 QA is more than finding bugs in a “the more the better” mode. The QA team’s mission is to help web developers deliver the product of their work within the estimated timeline, detecting any issues that might block the success of operations or even affect the user experience.
@@ -50,7 +50,25 @@ This simplifies communication inside the team and helps keep a clear overview of
 When a developer fixes an issue he/she informs the QA responsible, who verifies it. The ticket in the bug tracking system is closed when no issue is detected. A common rule to follow at this stage is: "no bug can be marked as fixed until it is verified".
 
 # QA Workflow
+
+There are many ways to approach your QA organization. The most used workflow options are **Waterfall** and **Agile**. They are completely different and adapt to different working/planification styles. 
+<p align="center">
+  <img src="https://github.com/PolCorTs/QA_Research/blob/master/Docs/agile_vs_traditional.png?raw=true" alt="Github branches" >
+</p>
+
 ## Waterfall
+
+Waterfall is a sequential method. It's not iterative, meaning work is not performed in cycles, constantly improving on the original product. You finish a stage and move on with the next step with the results practically immovable. You go through each of the project processes (from initiation to planning, execution, controlling, all the way to completion). And ideally at the end, you can assemble all the finished deliverables into a completed project or product. In this method, decisions (regarding both design and development) are made strictly within each phase of the process. As an example, changing the designs once the development phase has begun takes considerable time and money. Waterfall is supposed to control the process so that all but the most critical changes are managed or altogether prevented.
+In this type of working organization, QA is performed only after all the development process is done. It 
+<p align="center">
+  <img src="https://github.com/PolCorTs/QA_Research/blob/master/Docs/waterfall.jpg?raw=true" alt="Github branches" >
+</p>
+
 ## Agile
+
+<p align="center">
+  <img src="https://github.com/PolCorTs/QA_Research/blob/master/Docs/scrum-qa.png?raw=true" alt="Github branches" >
+</p>
+
 # Testing
 ## Bugs
