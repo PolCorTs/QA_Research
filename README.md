@@ -59,15 +59,27 @@ There are many ways to approach your QA organization. The most used workflow opt
 ## Waterfall
 
 Waterfall is a sequential method. It's not iterative, meaning work is not performed in cycles, constantly improving on the original product. You finish a stage and move on with the next step with the results practically immovable. You go through each of the project processes (from initiation to planning, execution, controlling, all the way to completion). And ideally at the end, you can assemble all the finished deliverables into a completed project or product. In this method, decisions (regarding both design and development) are made strictly within each phase of the process. As an example, changing the designs once the development phase has begun takes considerable time and money. Waterfall is supposed to control the process so that all but the most critical changes are managed or altogether prevented.
-In this type of working organization, QA is performed only after all the development process is done. It 
+In this type of working organization, QA is performed only after all the development process is done. This limits a lot the testing possibilities to change things after being tested.
+
 <p align="center">
   <img src="https://github.com/PolCorTs/QA_Research/blob/master/Docs/waterfall.jpg?raw=true" alt="Github branches" >
 </p>
 
 ## Agile
 
+Agile is an iterative, team-based approach to development. This approach emphasizes the rapid delivery of an application in complete functional components. Rather than creating tasks and schedules, all time is “time-boxed” into phases called “sprints.” Each sprint has a defined duration (usually in weeks) with a running list of deliverables, planned at the start of the sprint. Deliverables are prioritized by business value as determined by the customer. If all planned work for the sprint cannot be completed, work is reprioritized and the information is used for future sprint planning.
+
 <p align="center">
   <img src="https://github.com/PolCorTs/QA_Research/blob/master/Docs/scrum-qa.png?raw=true" alt="Github branches" >
+</p>
+
+With this method the customer has frequent opportunities to see the work being delivered, and to make decisions to change throughout the development. He/she gains a strong sense of ownership by working extensively and directly with the project team throughout the project.
+If time to market for a specific application is a greater concern than releasing a full feature set at initial launch, Agile can more quickly produce a basic version of working software which can be built upon in successive iterations. In addition development is often more user-focused, likely a result of more and frequent direction from the customer.
+
+QA can work in parallel with development, testing as soon as new source code is produced. Heavily based on automated testing, a grat method for large projects that allow testers to test automatically some parts thanks to software. Integrated with the development team so here is only one team. This method allows black box and white box testing, deep knowledge of internal workings of internal workings of the application.
+
+<p align="center">
+  <img src="https://github.com/PolCorTs/QA_Research/blob/master/Docs/white-black_boxes.png?raw=true" alt="Github branches" >
 </p>
 
 # Testing
