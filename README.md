@@ -104,16 +104,16 @@ In games, every element that does not enhance the game but detracts from it is a
 
 There are a lot of bug classifications, one of them is their severity affecting the game:
 
-- Low priority bugs: they often make no difference to the development team whether they are fixed or not. Examples of low bugs are
+- **Low priority bugs:** they often make no difference to the development team whether they are fixed or not. Examples of low bugs are
 minor graphical glitches, a short sound distortion here and there, some small error in the user interface.
-- Medium priority bugs:  they occur more often than low bugs—and they can almost always be counted on to happen. A low priority bug that happen more frequently may be classified as medium priority. Another example is a bug that
+- **Medium priority bugs:**  they occur more often than low bugs—and they can almost always be counted on to happen. A low priority bug that happen more frequently may be classified as medium priority. Another example is a bug that
 would annoy a player, but not affect gameplay. 
-- High priority bugs: they must be fixed.High bugs seriously affect gameplay, they make everything stop in its tracks. A necessary door that needs to be opened to continue with the story not opening is a major bug. A 40 frame rate fall would also be one.
-- Critical bugs: It demands immediate attention from the developers. Nobody goes home until the bug is fixed. Critical bugs cause crashes, freezes, and data corruption.
+- **High priority bugs:** they must be fixed.High bugs seriously affect gameplay, they make everything stop in its tracks. A necessary door that needs to be opened to continue with the story not opening is a major bug. A 40 frame rate fall would also be one.
+- **Critical bugs:** It demands immediate attention from the developers. Nobody goes home until the bug is fixed. Critical bugs cause crashes, freezes, and data corruption.
 
 Another type of classification is depending on which area they affect:
 
-- Visual: they affect a game’s graphics. Inside theese there are different types:
+- **Visual:** they affect a game’s graphics. Inside theese there are different types:
     
      - Clipping: it is when a polygon overlays or penetrates another polygon. 
      - Z-Fighting: Z coordinate corresponds to depth. If there’s a problem, textures in different depths might overlap and "fight". 
@@ -121,38 +121,69 @@ Another type of classification is depending on which area they affect:
      - Missing Textures: when you encounter missing textures, all you see is flat white or placeholders.
      - Visible Artifact: this is usually one of many little bits and pieces scattered on the screen that are not connected to anyone or anything.
 
-- Audio: they affect a game’s audio. Inside theese there are different types:
+- **Audio:** they affect a game’s audio. Inside theese there are different types:
      
      - Audio Drop: you might miss important dialogue, a telling gunshot sound effect, or a line in a song. 
      - Skipping: it usually follows a frame rate “hiccup”. This is a good indication it might be performance-related, not asset-related.
      - Missing Sound Effect: if a sound effect is missing, you will hear silence and that’s it. A missing sound effect is ultimately the responsibility of the programming and/or the audio team.
      - Volume Level: if you can’t change volume in the Options Screen, a sound effect that’s too faint or music that’s overbearing can be classified as a volume level bug.
      
-- Level Design: when a level is badly constructed, you might end up with a hole in the ground or even an invisible wall. 
+- **Level Design:** when a level is badly constructed, you might end up with a hole in the ground or even an invisible wall. 
 
-- Artificial Intelligence: when characters do something completely illogical such as staring at a wall for five minutes, you can bet there’s something wrong with the AI code.
+- **Artificial Intelligence:** when characters do something completely illogical such as staring at a wall for five minutes, you can bet there’s something wrong with the AI code.
 
-- Physics: physics bugs include breakables and dynamic behavior.
+- **Physics:** physics bugs include breakables and dynamic behavior.
 
-- Stability: it refers to the predictability of the code. Examples of stability bugs include freezes, crashes, and loading bugs.
+- **Stability:** it refers to the predictability of the code. Examples of stability bugs include freezes, crashes, and loading bugs.
 
-- Performance: it refers to the speed with which the hardware processes the code. Those include frame rate, load time, minimum requirements machine, and installation time bugs.
+- **Performance:** it refers to the speed with which the hardware processes the code. Those include frame rate, load time, minimum requirements machine, and installation time bugs.
 
-- Networking: they are bugs specifically related to server-client connectivity and bandwidth issues. 
+- **Networking:** they are bugs specifically related to server-client connectivity and bandwidth issues. 
 
 ### Bug reports
 
 Bug reports are text documents that describe to developers how a bug can be exactly reproduced. The more detailed a bug report is, the easier it is for the developer to fix it. The elements that a bug report must contain are:
 
-- Title: bug titles need to be absolutely clear and to the point, when writting them try to follow the 6W rule (who, what, when,
+- **Title:** bug titles need to be absolutely clear and to the point, when writting them try to follow the 6W rule (who, what, when,
 where, and why).
 
-- Description: The description provides more context and detail on the bug.
+- **Description:** The description provides more context and detail on the bug.
 
--Steps: they work as instructions explaining to the developer exactly what to do in order to replicate the bug.
+- **Steps:** they work as instructions explaining to the developer exactly what to do in order to replicate the bug.
 
-- Version:  The version associated with your report is one such essential component.
+- **Version:**  The version associated with your report is one such essential component.
 
-- Repeatability: it refers to how often a bug occurs. 
+- **Repeatability:** it refers to how often a bug occurs. 
 
-- Verification: once your bug report is done, it goes back to the developer for a fix. When it is "fixed" you must review it again to verify it is correct.
+- **Verification:** once your bug report is done, it goes back to the developer for a fix. When it is "fixed" you must review it again to verify it is correct.
+
+
+# REFERENCES
+
+https://www.emergya.com/blog/qa/2017/06/09/qa-really-means/
+
+https://www.emergya.com/blog/qa/about-qa/
+
+http://bit5.ru/026381.pdf
+
+https://is.muni.cz/th/tlkuv/Quality_Assurance_in_Game_Development_-_Matej_Komar
+
+http://www.intelliware.com/qa-in-an-agile-environment/
+
+https://www.seguetech.com/waterfall-vs-agile-methodology/
+
+https://kruschecompany.com/blog/post/quality-assurance-in-projects
+
+https://medium.com/scrumi/what-is-agile-workflow-eli5-15040cbd5e75
+
+https://www.wrike.com/blog/set-up-your-waterfall-workflow/
+
+https://www.youtube.com/watch?v=SdRBOEu3mwg
+
+IMAGES
+
+galla.seelenfluegel.info
+
+http://tomboa.net/implementing-an-agile-workflow-introduction/
+
+http://transmission.vehikl.com/what-is-agile/
