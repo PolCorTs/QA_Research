@@ -17,7 +17,7 @@ I am <https://www.linkedin.com/in/pol-cortés-escañuela-800075180/>(Pol Cortés
 Quality Assurance (QA) is a way to ensure everything is going the right way. Many people confuse the concepts of QA and testing. However, QA is used to describe the broad surface testing done inside a publisher, while testing covers the entire spectrum of techniques used to find, investigate, and solve problems.
 
 <p align="center">
-  <img src="https://github.com/PolCorTs/QA_Research/blob/master/Docs/qa-process.png?raw=true" alt="Github branches">
+  <img src="https://github.com/PolCorTs/QA_Research/blob/master/Docs/qa-workflow.png?raw=true" alt="Github branches">
 </p>
 
 QA is more than finding bugs in a “the more the better” mode. The QA team’s mission is to help web developers deliver the product of their work within the estimated timeline, detecting any issues that might block the success of operations or even affect the user experience.
@@ -157,33 +157,41 @@ where, and why).
 
 - **Verification:** once your bug report is done, it goes back to the developer for a fix. When it is "fixed" you must review it again to verify it is correct.
 
+BUG REPORT EXAMPLE
+<p align="center">
+  <img src="https://github.com/PolCorTs/QA_Research/blob/master/Docs/test-report.png?raw=true" alt="Github branches">
+</p>
 
 # REFERENCES
 
-https://www.emergya.com/blog/qa/2017/06/09/qa-really-means/
+* Emergya [QA blog](https://www.emergya.com/blog/qa/2017/06/09/qa-really-means/).
 
-https://www.emergya.com/blog/qa/about-qa/
+* Levy,L and Novak,J (2010) *GAME DEVELOPMENT ESSENTIALS GAME QA & TESTING* [Google books](https://books.google.es/books?id=lBDgcrSUcAQC&printsec=frontcover&hl=ca#v=onepage&q&f=false)
 
-http://bit5.ru/026381.pdf
+* Matej Komar master's thesis: [Quality Assurance in Game Development](https://is.muni.cz/th/tlkuv/Quality_Assurance_in_Game_Development_-_Matej_Komar)
 
-https://is.muni.cz/th/tlkuv/Quality_Assurance_in_Game_Development_-_Matej_Komar
+* Intelliware [Agile QA explanation](http://www.intelliware.com/qa-in-an-agile-environment/)
 
-http://www.intelliware.com/qa-in-an-agile-environment/
+* Seguetech [Waterfall vs. Agile QA](https://www.seguetech.com/waterfall-vs-agile-methodology/)
 
-https://www.seguetech.com/waterfall-vs-agile-methodology/
+* Kruschecompany [QA in projects](https://kruschecompany.com/blog/post/quality-assurance-in-projects)
 
-https://kruschecompany.com/blog/post/quality-assurance-in-projects
+* Medium [Agile explanation](https://medium.com/scrumi/what-is-agile-workflow-eli5-15040cbd5e75)
 
-https://medium.com/scrumi/what-is-agile-workflow-eli5-15040cbd5e75
+* Lionel Valdellon [How to set your waterfall workflow blog](https://www.wrike.com/blog/set-up-your-waterfall-workflow/)
 
-https://www.wrike.com/blog/set-up-your-waterfall-workflow/
+* The Playing Field video [QA And Playtesting Are Not The Same Thing](https://www.youtube.com/watch?v=SdRBOEu3mwg)
 
-https://www.youtube.com/watch?v=SdRBOEu3mwg
+* Javier Gutiérrez González CITM campus presentation
 
 IMAGES
 
-galla.seelenfluegel.info
+* [QA Workflow](https://dzone.com/articles/quality-assurance-approach-and-best-practices)
 
-http://tomboa.net/implementing-an-agile-workflow-introduction/
+* Traditional vs. agile [diagram](http://tomboa.net/implementing-an-agile-workflow-introduction/)
 
-http://transmission.vehikl.com/what-is-agile/
+* Waterfall [diagram](http://transmission.vehikl.com/what-is-agile/)
+
+* Bug report [templates](https://marker.io/blog/bug-report-template/)
+
+
